@@ -28,3 +28,6 @@ ax.bar_label(rects2, padding=-30, color="white")
 fig.tight_layout()
 
 plt.show()
+
+
+

@@ -20,7 +20,7 @@ body {
 
 body {
 	font-family: helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	padding: 20px;
 	text-align: left;
 	color: #555;
@@ -53,6 +53,16 @@ p{
 p span{
 	font-weight: bold;
 	color: #111;
+}
+
+.intro{
+	line-height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	background: #8EB3E0;
+	color: #fff; 
 }
 
 
@@ -108,8 +118,36 @@ p span{
 	justify-content: center;
 }
 
+/*FOOTER*/
 
+#footerCon{
+	width: 690px;
+	margin: -20px;
+	line-height: 20px;
+	margin-top: 10px;
+	padding: 20px;
+	background: #3D5EA8;
+	color: #fff; 
+	display: inline-flex;
+	flex-direction: row;
 
+}
+
+#copyRight{
+	width:  500px;
+	padding: 10px;
+	text-align: left;
+	font-size: 11px;
+	line-height: 12px;
+}
+
+#footerMediaNav{
+	width: 150px;
+	margin: 20px;
+	padding: 10px;
+	justify-content: space-around;
+	align-items: center;
+}
 
 
 
