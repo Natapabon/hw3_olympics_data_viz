@@ -1,0 +1,153 @@
+/* @charset "UTF-8" */
+
+.hidden
+{
+	display: none;
+}
+
+body {
+	background-color: #8EB3E0;
+}
+
+#container {
+	margin: 0 auto;
+	width: 690px;
+	overflow: hidden;
+	background: #BEE4F9;
+	padding: 20px;
+
+}
+
+body {
+	font-family: helvetica, Arial, sans-serif;
+	font-size: 15px;
+	padding: 20px;
+	text-align: left;
+	color: #555;
+
+}
+
+h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	color: #6E92B7;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+	color: #3D5EA8;
+	text-align: center;
+	font-stretch: condensed;
+	
+}
+
+
+p{
+	margin: 7px;
+}
+
+p span{
+	font-weight: bold;
+	color: #111;
+}
+
+.intro{
+	line-height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	background: #8EB3E0;
+	color: #fff; 
+}
+
+
+#mainTitle{
+	justify-content: center;
+}
+
+
+#pieGraphCon{
+	width: 690px;
+	height: 400px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.pieGraphArticle{
+	width:  200px;
+	height: 350px;
+	margin: 10px;
+	padding: 5px;
+	justify-content: space-between;
+	background: #fff;
+	
+	border-radius: 5px;
+}
+
+.subHead{
+	margin: 10px;
+	font-weight: bold;
+	color: #8EB3E0;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	font-stretch: condensed;
+}
+
+#fullGraphCon{
+	width: 690px;
+	display: inline-block;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.fullGraphArticle{
+	width:  650px;
+	margin: 10px;
+	padding: 10px;
+	align-items: center;
+	text-align: left;
+	background: #fff;
+	border-radius: 5px;
+	justify-content: center;
+}
+
+/*FOOTER*/
+
+#footerCon{
+	width: 690px;
+	margin: -20px;
+	line-height: 20px;
+	margin-top: 10px;
+	padding: 20px;
+	background: #3D5EA8;
+	color: #fff; 
+	display: inline-flex;
+	flex-direction: row;
+
+}
+
+#copyRight{
+	width:  500px;
+	padding: 10px;
+	text-align: left;
+	font-size: 11px;
+	line-height: 12px;
+}
+
+#footerMediaNav{
+	width: 150px;
+	margin: 20px;
+	padding: 10px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+

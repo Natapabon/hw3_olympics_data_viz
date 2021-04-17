@@ -4,24 +4,115 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=devide-width, initial-scale:1.0">
 	<title>Winter Olympics data Analysis</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 </head>
 <body>
-	<main class="wrapper">
-		<h1 class="hidden"></h1>
-		<h2>Winter Olympic games Analysis</h2>
-		<p></p>
+	<div id="container">
+		<main class="wrapper">
+			<h1 class="hidden"></h1>
+			<section id="mainTitle">
+				<h3>W  I  N  T  E  R</h3>
+				<h2>Olympic Games</h2>
+				<h3>Analysis</h3>
+				<p class="intro">The women have had a greater impact and participation in all types of sports in recent decades, and the Winter Olympic Games can demonstrate the increase in this participation over the years. It is true that male participation has won a large part of the Olympic medals in different disciplines, but it can be seen how it has tried to reach a gender balance with the increase in female participation after 1994.</p>
+			</section>
 
-		<section class="argument">
-			<h1 class="hidden">Data Point 1</h1>
-			<h2 class="subhead"> The 1st heading</h2>
-			<p></p>
-		</section>
+			<section id="pieGraphCon"> <!-- pieGraphCon list-->
+				<h3 class="hidden">Graphics Articles</h3>
+
+				<article class="pieGraphArticle">
+					<h4 class="subHead">Gold</h4>
+					<img src="images/piechartgold.png" width="200" alt="Golden Pie Chart">
+					<p>Historical count of gold medals awarded from 1924 - 2014, divided by gender.</p>
+					<p>-------</p>
+					<p>Total golden medals for MEN: <span>1,310</span></p>
+					<p>Total golden medals for WOMEN: <span>611</span></p>
+				</article>
+
+				<article class="pieGraphArticle">
+					<h4 class="subHead">Silver</h4>
+					<img src="images/piechartsilver.png" width="200" alt="Silver Pie Chart">
+					<p>Historical count of Silver medals awarded from 1924 - 2014, divided by gender.</p>
+					<p>-------</p>
+					<p>Total golden medals for MEN: <span>1,319</span></p>
+					<p>Total golden medals for WOMEN: <span>611</span></p>
+				</article>
+
+				<article class="pieGraphArticle">
+					<h4 class="subHead">Bronze</h4>
+					<img src="images/piechartbronze.png" width="200" alt="Bronze Pie Chart">
+					<p>Historical count of Bronze medals awarded from 1924 - 2014, divided by gender.</p>
+					<p>-------</p>
+					<p>Total golden medals for MEN: <span>1,315</span></p>
+					<p>Total golden medals for WOMEN: <span>604</span></p>
+				</article>
+
+			</section> <!-- pieGraphCon SECTION end tag-->
+
+			<section id="fullGraphCon"> <!-- pieGraphCon list-->
+				<h3 class="hidden">Graphics Articles</h3>
+
+				<article class="fullGraphArticle">
+					<h4 class="subHead">Top 5 countries with more medalls</h4>
+					<img src="images/barscountries.png" width="650" alt="Counties Bar Chart">
+					
+					<p>Total medals of the 5 countries that have won the most medals in the Winter Olympics from 1924 to 2014. Gold, Silver and Bronze are included.</p>
+					<p>-------</p>
+					<p>USA: <span>654</span> / Gold: 167 / Silver: 319 / Bronzer: 167)</p>
+					<p>CAD: <span>625</span> / Gold: 315 / Silver: 203 / Bronzer: 107)</p>
+					<p>NOR: <span>457</span> / Gold: 259 / Silver: 171 / Bronzer: 127)</p>
+					<p>URS: <span>440</span> / Gold: 250 / Silver: 97 / Bronzer:93)</p>
+					<p>FIN: <span>434</span> / Gold: 66 / Silver: 147 / Bronzer: 221)</p>
+				</article>
+
+				<article class="fullGraphArticle">
+					<h4 class="subHead">Women vs Men medals won: top 5 contries</h4>
+					<img src="images/wm_barchart.png" width="650" alt="Gender Bar Chart">
+					
+					<p class="sideText">Number of medals won according to gender in the top 5 of the countries with the most medals awarded between 1924 and 2014. Gold, Silver and Bronze are included.</p>
+					<p>-------</p>
+					<p>USA: <span>654</span></p>
+					<p>CAD: <span>625</span></p>
+					<p>NOR: <span>457</span></p>
+					<p>URS: <span>440</span></p>
+					<p>FIN: <span>434</span></p>
+				</article>
+
+				<article class="fullGraphArticle">
+					<h4 class="subHead">Women vs Men medals won: historical between 1924 to 2014</h4>
+					<img src="images/mapper_wm.png" width="650" alt="Gender historical map">
+					
+					<p class="sideText">We can see that in the last years, the women participation has inclesed. In the chart above we can see the number of medals won according to gender in the Winter Olympic games between 1924 and 2014. Gold, Silver and Bronze are included.</p>
+					<p>-------</p>
+					<p>Total medals Men won: <span>3,944</span></p>
+					<p>Total medals Women won: <span>1,826</span></p>
+				</article>
+
+			</section> <!-- pieGraphCon SECTION end tag-->
+		</main>
 
 		<footer>
-			<h1 class="hidden">Footer</h1>
-			<h2>The footer!</h2>
-		</footer>
-	</main>
+			<section id="footerCon">
+			<h2 class="hidden">Footer Navigation Container</h2>
+				<div id="copyRight">
+					<h3 class="hidden">footer Copyright</h3>
+					<p>Copyright &copy; 2021 Natalia Pabon.</p>
+					<p>Data was provided by the IOC Research and Reference Service and published by The Guardian's Datablog.</p>
+					<p>All the data study is from Winter Olympic Games, 1924-2014</p>
+				</div>
+					
+				<div id="footerMediaNav">
+					<h3 class="hidden">footer Sub Navigation</h3>
+						<img src="images/social_media/icon_facebook.png" width="30" alt="instagram">	<img src="images/social_media/icon_instagram.png" width="30" alt="whats app">
+						<img src="images/social_media/icon_whatsapp.png" width="30" alt="e mail">
+				</div>
+			</section>
+		</footer><!-- Footer close tag-->
+
+	</div>
 
 </body>
 </html>
