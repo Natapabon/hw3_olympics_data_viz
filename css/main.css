@@ -1,0 +1,94 @@
+/* @charset "UTF-8" */
+
+.hidden
+{
+	display: none;
+}
+
+body {
+	background-color: #8EB3E0;
+}
+
+#container {
+	margin: 0 auto;
+	width: 690px;
+	overflow: hidden;
+	background: #BEE4F9;
+	padding: 20px;
+
+}
+
+body {
+	font-family: helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 20px;
+
+}
+
+h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	color: #6E92B7;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+	color: #3D5EA8;
+	text-align: center;
+	font-stretch: condensed;
+	
+}
+
+
+#mainTitle{
+	justify-content: center;
+}
+
+
+#pieGraphCon{
+	width: 690px;
+	height: 430px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.pieGraphArticle{
+	width:  210px;
+	margin: 10px;
+	justify-content: space-between;
+	text-align: center;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.subHead{
+	margin: 5px;
+	font-weight: bold;
+	color: #8EB3E0;
+}
+
+#fullGraphCon{
+	width: 690px;
+	display: inline-block;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.fullGraphArticle{
+	width:  670px;
+	margin: 10px;
+	align-items: flex-start;
+	text-align: left;
+	background: #fff;
+	border-radius: 5px;
+
+
+
+
+
+
