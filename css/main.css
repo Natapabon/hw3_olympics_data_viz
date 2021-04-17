@@ -22,6 +22,8 @@ body {
 	font-family: helvetica, Arial, sans-serif;
 	font-size: 14px;
 	padding: 20px;
+	text-align: left;
+	color: #555;
 
 }
 
@@ -44,6 +46,16 @@ h2 {
 }
 
 
+p{
+	margin: 7px;
+}
+
+p span{
+	font-weight: bold;
+	color: #111;
+}
+
+
 #mainTitle{
 	justify-content: center;
 }
@@ -51,25 +63,31 @@ h2 {
 
 #pieGraphCon{
 	width: 690px;
-	height: 430px;
+	height: 400px;
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
 .pieGraphArticle{
-	width:  210px;
+	width:  200px;
+	height: 350px;
 	margin: 10px;
+	padding: 5px;
 	justify-content: space-between;
-	text-align: center;
 	background: #fff;
+	
 	border-radius: 5px;
 }
 
 .subHead{
-	margin: 5px;
+	margin: 10px;
 	font-weight: bold;
 	color: #8EB3E0;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	font-stretch: condensed;
 }
 
 #fullGraphCon{
@@ -80,12 +98,15 @@ h2 {
 }
 
 .fullGraphArticle{
-	width:  670px;
+	width:  650px;
 	margin: 10px;
-	align-items: flex-start;
+	padding: 10px;
+	align-items: center;
 	text-align: left;
 	background: #fff;
 	border-radius: 5px;
+	justify-content: center;
+}
 
 
 
